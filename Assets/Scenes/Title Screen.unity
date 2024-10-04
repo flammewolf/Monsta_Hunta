@@ -240,6 +240,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87c8dc049a57dec4186f5d9972b97e86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  username: {fileID: 520568439}
 --- !u!1 &264379864
 GameObject:
   m_ObjectHideFlags: 0
@@ -1507,7 +1508,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1125387737}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 244175989}
+        m_TargetAssemblyTypeName: MenuUI, Assembly-CSharp
+        m_MethodName: ClickOnPlay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1125387737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1590,6 +1603,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17e94ddab946b5449b7cdbf2083978af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  username: 
 --- !u!1 &1817958200
 GameObject:
   m_ObjectHideFlags: 0

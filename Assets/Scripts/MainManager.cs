@@ -6,7 +6,7 @@ public class MainManager : MonoBehaviour
 {
     public static MainManager instance;
 
-    private string username { get; }
+    public string username;
 
     private void Awake()
     {
@@ -15,7 +15,7 @@ public class MainManager : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-
+        
         instance = this;
         DontDestroyOnLoad(gameObject);
     }
